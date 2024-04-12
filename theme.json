@@ -1,0 +1,73 @@
+{
+  "typeScale": {
+    "steps": 12,
+    "viewportMin": 320,
+    "viewportMax": 1500,
+    "baseMin": 16,
+    "baseMax": 20,
+    "scaleMin": "minor-third",
+    "scaleMax": "perfect-fourth"
+  },
+  "spaceScale": {
+    "steps": 12,
+    "viewportMin": 320,
+    "viewportMax": 1500,
+    "baseMin": 16,
+    "baseMax": 18,
+    "scaleMin": "minor-third",
+    "scaleMax": "perfect-fourth"
+  },
+  "fonts": {
+    "sans": "HK Grotesk, system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif",
+    "serif": "Georgia,Cambria,Times New Roman,Times,serif",
+    "mono": "Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace"
+  },
+  "theme": {
+    "light": "#f8f9fa",
+    "dark": "#343a40",
+    "primary": "#007bff",
+    "secondary": "#6c757d",
+    "success": "#28a745",
+    "info": "#17a2b8",
+    "warning": "#ffc107",
+    "error": "#dc3545"
+  },
+  "color": {
+    "crimson": "#eb0052",
+    "muted": "#6c757d",
+    "white": "#fff"
+  },
+  "properties": {
+    "site-width": "90vw",
+    "site-max-width": "1440px",
+    "linktree-avatar-img": "url('/_public/avatar.jpg')",
+    "linktree-bg-img":"",
+    "linktree-link-border-radius": "1px",
+    "linktree-link-shadow": "-1px 1px 0 #222,-2px 2px 0 #222,-3px 3px 0 #222,-4px 4px 0 #222,-5px 5px 0 #222,-6px 6px 0 #222,-7px 7px 0 #222,-8px 8px 0 #222",
+    "linktree-link-border-color": "#222",
+    "linktree-link-border-color-hover": "#343a40",
+    "linktree-link-bg-color": "#FFF",
+    "linktree-link-bg-color-hover": "#FFF",
+    "linktree-link-transform": "translate(-8px, 8px)",
+    "nav-height": "4rem"
+  },
+  "grid": {
+    "steps": 6
+  },
+  "queries": {
+    "lg": "48em"
+  },
+  "borders": {
+    "widths": [
+      1,
+      2,
+      4
+    ]
+  },
+  "radii": [
+    2,
+    8,
+    16,
+    9999
+  ]
+}

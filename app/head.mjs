@@ -24,6 +24,41 @@ export default function Head(state) {
       <link rel="icon" href="/_public/favicon.svg">
       <link rel='stylesheet' href='/_public/css/global.css' />
       <link rel='stylesheet' href='/_public/css/a11y-dark.min.css' />      <meta name="description" content="The HTML first full stack web framework.">
+      <style>
+        @font-face {
+          font-family: "HK Grotesk";
+          font-weight: 300;
+          src: url("/_public/fonts/HKGrotesk-Light.woff2") format("woff2")
+        }
+
+        @font-face {
+          font-family: "HK Grotesk";
+          font-weight: 400;
+          src: url("/_public/fonts/HKGrotesk-Regular.woff2") format("woff2")
+        }
+
+        @font-face {
+          font-family: "HK Grotesk";
+          font-weight: 600;
+          src: url("/_public/fonts/HKGrotesk-SemiBold.woff2") format("woff2")
+        }
+
+        body {
+          color: var(--dark);
+          background-color: var(--light);
+          text-rendering: optimizeLegibility;
+        }
+
+        a {
+          text-decoration-thickness: 0.0625em;
+          text-underline-offset: 0.0625em;
+        }
+
+        ul {
+          list-style-position: inside;
+          padding-left: 20px;
+        }
+      </style>
     </head>
     <body class="font-sans">
 `

@@ -11,7 +11,7 @@ export default function SiteHeader ({ html }) {
             JS Naked Day
           </a>
         </h1>
-        <p class='font-body text0 pbe4'>
+        <p class='font-body text0 pbe-2'>
           The web should work without JavaScript
         </p>
       </header>
