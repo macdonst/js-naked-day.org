@@ -6,7 +6,7 @@ export default async function Preflight({ req }) {
 
 function getPageTitle(path) {
   const titleMap = {
-    '/': 'Enhance Starter Project'
+    '/': 'JS Naked Day'
   }
 
   return titleMap[path]
