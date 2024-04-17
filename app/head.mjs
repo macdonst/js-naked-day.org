@@ -26,31 +26,31 @@ export default function Head(state) {
       <link rel='stylesheet' href='/_public/css/a11y-dark.min.css' />      <meta name="description" content="The HTML first full stack web framework.">
       <style>
         @font-face {
-          font-family: "HK Grotesk";
-          font-weight: 300;
-          src: url("/_public/fonts/HKGrotesk-Light.woff2") format("woff2")
+          font-family: "Newsreader";
+          src: url("/_public/fonts/Newsreader.woff2") format("woff2-variations");
+          src: url("/_public/fonts/Newsreader.woff2") format("woff2") tech("variations");
+          font-weight: 200 800;
         }
 
         @font-face {
-          font-family: "HK Grotesk";
-          font-weight: 400;
-          src: url("/_public/fonts/HKGrotesk-Regular.woff2") format("woff2")
-        }
-
-        @font-face {
-          font-family: "HK Grotesk";
-          font-weight: 600;
-          src: url("/_public/fonts/HKGrotesk-SemiBold.woff2") format("woff2")
+          font-family: "Newsreader";
+          src: url("/_public/fonts/Newsreader-Italic.woff2") format("woff2-variations");
+          src: url("/_public/fonts/Newsreader-Italic.woff2") format("woff2") tech("variations");
+          font-weight: 200 800;
+          font-style: italic;
         }
 
         body {
           color: var(--dark);
-          background-color: var(--light);
+          background-color: var(--primary-100);
           text-rendering: optimizeLegibility;
+          font-variant-numeric: proportional-nums;
         }
 
-        a {
-          text-decoration-thickness: 0.0625em;
+        a[href]:not(.no-underline) {
+          text-decoration: underline;
+          text-decoration-color: var(--primary-600);
+          text-decoration-thickness: 3px;
           text-underline-offset: 0.0625em;
         }
 
@@ -60,6 +60,6 @@ export default function Head(state) {
         }
       </style>
     </head>
-    <body class="font-sans">
+    <body class="font-serif leading4">
 `
 }
