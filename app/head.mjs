@@ -24,7 +24,7 @@ export default function Head(state) {
       <link rel="icon" href="/_public/favicon.svg">
       <link rel='stylesheet' href='/_public/css/global.css' />
       <link rel='stylesheet' href='/_public/css/a11y-dark.min.css' />
-      <meta name="description" content="The HTML first full stack web framework.">
+      <meta name="description" content="JS Naked Day: The web should work without JavaScript">
       <meta property="og:title" content="JS Naked Day" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://js-naked-day.org" />
