@@ -23,7 +23,12 @@ export default function Head(state) {
       ${styles}
       <link rel="icon" href="/_public/favicon.svg">
       <link rel='stylesheet' href='/_public/css/global.css' />
-      <link rel='stylesheet' href='/_public/css/a11y-dark.min.css' />      <meta name="description" content="The HTML first full stack web framework.">
+      <link rel='stylesheet' href='/_public/css/a11y-dark.min.css' />
+      <meta name="description" content="The HTML first full stack web framework.">
+      <meta property="og:title" content="JS Naked Day" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://js-naked-day.org" />
+      <meta property="og:image" content="/_public/images/hero.png" />
       <style>
         @font-face {
           font-family: "Newsreader";
