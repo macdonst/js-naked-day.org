@@ -56,7 +56,7 @@ export default function Head(state) {
           text-decoration: underline;
           text-decoration-color: var(--primary-600);
           text-decoration-thickness: 3px;
-          text-underline-offset: 0.0625em;
+          text-underline-offset: 0.125em;
         }
 
         ul {
