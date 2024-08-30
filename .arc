@@ -1,5 +1,5 @@
 @app
-enhance-app
+js-naked-day
 
 @plugins
 enhance/arc-plugin-enhance
