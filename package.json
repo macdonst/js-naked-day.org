@@ -10,7 +10,7 @@
   "devDependencies": {
     "@architect/architect": "^11.1.0",
     "@enhance/cli": "latest",
-    "@enhance/types": "^0.6.1",
+    "@enhance/types": "^0.7.0",
     "eslint": "^8.49.0"
   },
   "eslintConfig": {
@@ -31,8 +31,8 @@
     }
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "^9.4.11",
-    "@enhance/arc-plugin-styles": "^5.0.5",
+    "@enhance/arc-plugin-enhance": "^11.0.4",
+    "@enhance/arc-plugin-styles": "^5.0.6",
     "@enhance/styles-cribsheet": "^0.0.11"
   }
 }
